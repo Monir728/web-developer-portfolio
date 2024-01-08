@@ -32,7 +32,9 @@ nav{
 }
 nav > ul{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav li{
     list-style: none;
@@ -42,16 +44,78 @@ nave a{
     text-decoration: none;
     color: #474780;
 }
+
+.section title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    line-height: normal;
+} 
+
+.about{
+    padding: 130px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(195, 172, 77);
+    margin: 100px;
+}
+
 /*header lelated style*/
 .HEader{
     background-color: #3fa6cf;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat; background-position: bottom right;
 
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 40px 40px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    }
+    .banner title{
+        font-size: 85px;
+        font-weight: 900
     }
 .banner .profile pic{
-width: 500px;
+        width: 600px;
 }
+.profile pic{
+    display: flex;
+}
+
+.banner title{
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+
+.banner-greeting{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+.banner description{
+    font-size: 16px;
+    font-weight: 100;
+}
+.justify letter{
+    justify-content: flex-start;
+}
+.alinment{
+    font-style: normal;
+    text-align: justify;
+    margin-left: 0%;
+}
+
+/*main section styles*/
+
+/*about section styles*/
+
+
+.section-desecriptio{
+    color: burlywood;
+    text-align: center;
+    font-size: 18px;
+}  
