@@ -98,7 +98,7 @@ nave a{
 
 .banner description{
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 190;
 }
 .justify letter{
     justify-content: flex-start;
@@ -119,3 +119,16 @@ nave a{
     text-align: center;
     font-size: 18px;
 }  
+/* main section styles*/
+.main{
+    max-width: 1200px;
+}
+
+.aic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
